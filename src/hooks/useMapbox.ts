@@ -36,11 +36,18 @@ interface TrailFeature extends GeoJSON.Feature<GeoJSON.LineString> {
 
 async function fetchOsmTrails(): Promise<GeoJSON.FeatureCollection | null> {
   const query = `
-    [out:json][bbox:${BC_WA_BBOX.south},${BC_WA_BBOX.west},${BC_WA_BBOX.north},${BC_WA_BBOX.east}];
+    [out:json][timeout:90][bbox:${BC_WA_BBOX.south},${BC_WA_BBOX.west},${BC_WA_BBOX.north},${BC_WA_BBOX.east}];
     (
       way["highway"="path"]["route"="hiking"];
+      way["highway"="path"]["route"="mountain_hiking"];
       way["highway"="path"]["sac_scale"];
+      way["highway"="path"]["trail_visibility"];
+      way["highway"="path"]["informal"];
+      way["highway"="trail"];
       way["highway"="cycleway"]["route"="hiking"];
+      way["highway"="footway"]["trail_visibility"];
+      relation["route"="hiking"];
+      relation["route"="mountain_hiking"];
     );
     out geom;
   `;
@@ -50,27 +57,29 @@ async function fetchOsmTrails(): Promise<GeoJSON.FeatureCollection | null> {
       body: query,
     });
     const data = await res.json();
-    const features: TrailFeature[] = (data.elements ?? [])
-      .filter((el: { type: string }) => el.type === 'way')
-      .map((way: { id: number; tags?: Record<string, string>; geometry: Array<{ lat: number; lon: number }> }) => {
-        const coords = (way.geometry ?? []).map((p) => [p.lon, p.lat] as [number, number]);
-        const distanceKm = coords.length >= 2 ? lineLengthKm(coords) : 0;
-        return {
-          type: 'Feature' as const,
-          geometry: {
-            type: 'LineString' as const,
-            coordinates: coords,
-          },
-          properties: {
-            id: way.id,
-            name: way.tags?.name ?? `Trail #${way.id}`,
-            distance_km: distanceKm,
-          },
-        };
-      })
-      .filter(
-        (f: TrailFeature) => f.geometry.type === 'LineString' && f.geometry.coordinates.length >= 2
-      );
+    const elements = data.elements ?? [];
+    const features: TrailFeature[] = [];
+    // Process ways
+    for (const el of elements) {
+      if (el.type !== 'way' && el.type !== 'relation') continue;
+      const geometry = el.geometry ?? [];
+      if (geometry.length < 2) continue;
+      const coords = geometry.map((p: { lat: number; lon: number }) => [p.lon, p.lat] as [number, number]);
+      const distanceKm = lineLengthKm(coords);
+      const tags = el.tags ?? {};
+      const name = tags.name ?? tags.ref ?? (el.type === 'relation' ? `Trail R${el.id}` : `Trail #${el.id}`);
+      // Use negative id for relations to avoid collision with way ids
+      const featureId = el.type === 'relation' ? -el.id : el.id;
+      features.push({
+        type: 'Feature' as const,
+        geometry: { type: 'LineString' as const, coordinates: coords },
+        properties: {
+          id: featureId,
+          name,
+          distance_km: distanceKm,
+        },
+      });
+    }
     return { type: 'FeatureCollection', features };
   } catch {
     return null;
