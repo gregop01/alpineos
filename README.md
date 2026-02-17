@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AlpineOS
 
-## Getting Started
+Backcountry availability and booking engine for BC, Rockies, and PNW. A "single pane of glass" for finding and securing campsite and hut bookings.
 
-First, run the development server:
+## Setup
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone and install**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   cd alpineos && npm install
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Environment variables**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   Copy `.env.example` to `.env.local` and fill in:
 
-## Learn More
+   - `NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN` – [Mapbox](https://account.mapbox.com/)
+   - `NEXT_PUBLIC_SUPABASE_URL` – New Supabase project URL
+   - `NEXT_PUBLIC_SUPABASE_ANON_KEY` – Supabase anon key
 
-To learn more about Next.js, take a look at the following resources:
+3. **Supabase**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   - Create a new project at [supabase.com](https://supabase.com)
+   - Enable PostGIS: Database → Extensions → Enable `postgis`
+   - Run `supabase/run_all_migrations.sql` in the SQL Editor (copy-paste entire file)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Run**
 
-## Deploy on Vercel
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Discovery map** – Full-screen Mapbox with 3D terrain, OSM hiking trails, location pins
+- **Side panel** – Click a pin for calendar availability and deep links to providers
+- **Booking Pulse** – `/pulse` dashboard showing what's opening soon (from Supabase `booking_rules`)
+
+## Providers
+
+BC Parks, Parks Canada, ACC huts, BCMC, VOC, day-use passes (Joffre, Golden Ears), and more.
