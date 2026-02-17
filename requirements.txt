@@ -1,0 +1,2 @@
+# For GoingToCamp availability scraping (BC Parks, Parks Canada, Washington)
+camply>=0.11.0

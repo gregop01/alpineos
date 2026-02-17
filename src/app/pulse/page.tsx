@@ -51,17 +51,17 @@ export default function PulsePage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-zinc-50 dark:bg-zinc-950">
-      <header className="sticky top-0 z-10 bg-white/90 dark:bg-zinc-900/90 backdrop-blur border-b border-zinc-200 dark:border-zinc-800">
+    <div className="min-h-screen bg-zinc-50">
+      <header className="sticky top-0 z-10 bg-white/90 backdrop-blur border-b border-zinc-200">
         <div className="max-w-2xl mx-auto px-4 py-4 flex items-center justify-between">
           <Link
             href="/"
-            className="flex items-center gap-2 text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50"
+            className="flex items-center gap-2 text-zinc-600 hover:text-zinc-900"
           >
             <ArrowLeft size={20} />
             <span className="text-sm">Map</span>
           </Link>
-          <h1 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">
+          <h1 className="text-lg font-semibold text-zinc-900">
             Booking Pulse
           </h1>
           <div className="w-12" />

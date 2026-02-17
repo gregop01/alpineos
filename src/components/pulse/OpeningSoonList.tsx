@@ -29,12 +29,12 @@ export function OpeningSoonList({ items }: OpeningSoonListProps) {
   });
 
   return (
-    <ul className="divide-y divide-zinc-200 dark:divide-zinc-700">
+    <ul className="divide-y divide-zinc-200">
       {sorted.map((item) => (
         <li key={item.id} className="py-4 first:pt-0">
           <div className="flex items-start justify-between gap-4">
             <div>
-              <h3 className="font-medium text-zinc-900 dark:text-zinc-50">
+              <h3 className="font-medium text-zinc-900">
                 {item.name}
               </h3>
               <p className="text-sm text-zinc-500 mt-0.5">
@@ -44,7 +44,7 @@ export function OpeningSoonList({ items }: OpeningSoonListProps) {
             <div className="text-right shrink-0">
               {item.nextOpening ? (
                 <>
-                  <p className="text-sm font-medium text-zinc-900 dark:text-zinc-50">
+                  <p className="text-sm font-medium text-zinc-900">
                     {item.nextOpening.daysUntil === 0
                       ? 'Today'
                       : `In ${item.nextOpening.daysUntil} days`}
@@ -59,7 +59,7 @@ export function OpeningSoonList({ items }: OpeningSoonListProps) {
               )}
               <Link
                 href={`/?location=${item.id}`}
-                className="inline-flex items-center gap-1 mt-2 text-xs text-blue-600 dark:text-blue-400 hover:underline"
+                className="inline-flex items-center gap-1 mt-2 text-xs text-blue-600 hover:underline"
               >
                 <MapPin size={12} />
                 View on map

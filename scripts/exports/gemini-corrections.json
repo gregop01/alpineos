@@ -1,0 +1,1844 @@
+{
+  "corrections": [
+    {
+      "id": "4a808d12-a3c5-411e-aa09-a18a7e86094a",
+      "original_lat": 53.1788287166836,
+      "original_lon": -120.919131533741,
+      "lat": 53.107,
+      "lon": -121.495,
+      "reason": "Centroid of park; actual campground and main access for canoe circuit is at the West Entrance."
+    },
+    {
+      "id": "3ea361ce-487d-410c-a09e-cf06d2dc4235",
+      "name": "Bowron Lakes",
+      "provider": "bcparks",
+      "original_lat": 53.1333,
+      "original_lon": -121.0667,
+      "lat": 53.107,
+      "lon": -121.495,
+      "reason": "Centroid of park; actual campground and main access for canoe circuit is at the West Entrance."
+    },
+    {
+      "id": "f568973d-0e73-4d0f-8ffa-fe709cf376e6",
+      "name": "BUGABOO PARK",
+      "provider": "bcparks",
+      "original_lat": 50.7798577429144,
+      "original_lon": -116.80710846108,
+      "lat": 50.725,
+      "lon": -116.755,
+      "reason": "Centroid of park; main access and camping for mountaineering is near the Conrad Kain Hut."
+    },
+    {
+      "id": "52f6853d-e32e-4bc4-97d6-cc8953b1bbfa",
+      "name": "CARMANAH WALBRAN PARK",
+      "provider": "bcparks",
+      "original_lat": 48.687262475745,
+      "original_lon": -124.642684977776,
+      "lat": 48.705,
+      "lon": -124.695,
+      "reason": "Centroid of park; main access and wilderness camping is at the trailhead."
+    },
+    {
+      "id": "68c7e66f-1ad8-471c-aa6f-4c570b1bf6e3",
+      "name": "COPELAND ISLANDS MARINE PARK",
+      "provider": "bcparks",
+      "original_lat": 50.0046217863636,
+      "original_lon": -124.810116382727,
+      "lat": 49.9997,
+      "lon": -124.7995,
+      "reason": "Centroid of park; actual marine campsite on South Copeland Island."
+    },
+    {
+      "id": "b961189f-1275-4257-8957-a67b97014ac",
+      "original_lat": 50.1103284132614,
+      "original_lon": -124.654053784407,
+      "lat": 50.078,
+      "lon": -124.7,
+      "reason": "Centroid of park; actual marine campsite at Tenedos Bay."
+    },
+    {
+      "id": "4f964924-086d-42db-b359-286277d41037",
+      "name": "GLADSTONE PARK",
+      "provider": "bcparks",
+      "original_lat": 49.203133924214,
+      "original_lon": -118.282560580259,
+      "lat": 49.1,
+      "lon": -118.2,
+      "reason": "Centroid of park; actual campground at Texas Creek within Gladstone Park."
+    },
+    {
+      "id": "747ecaf9-d729-4091-a986-96574dc64eb6",
+      "name": "GOD''S POCKET MARINE PARK",
+      "provider": "bcparks",
+      "original_lat": 50.8326148803509,
+      "original_lon": -127.524068798947,
+      "lat": 50.84,
+      "lon": -127.5,
+      "reason": "Centroid of park; actual wilderness camping on Hurst Island."
+    },
+    {
+      "id": "3e6ff5c3-59f5-47d3-8181-c923e72e571c",
+      "name": "MAIN LAKE PARK",
+      "provider": "bcparks",
+      "original_lat": 50.2027570459513,
+      "original_lon": -125.199031722542,
+      "lat": 50.189,
+      "lon": -125.195,
+      "reason": "Centroid of park; actual marine campsite at south end of Main Lake per bcparks.ca"
+    },
+    {
+      "id": "dd2ba6c5-51d3-4700-b354-cb8a4418a287",
+      "name": "MALASPINA PARK",
+      "provider": "bcparks",
+      "original_lat": 50.0287389470625,
+      "original_lon": -124.754924477906,
+      "lat": 50.02,
+      "lon": -124.75,
+      "reason": "Centroid of park; actual marine campsite at head of Malaspina Inlet per bcparks.ca"
+    },
+    {
+      "id": "03d9b2f3-2263-45ec-8310-0ec9a581ecfd",
+      "name": "MARBLE RIVER PARK",
+      "provider": "bcparks",
+      "original_lat": 50.53924160375,
+      "original_lon": -127.52497418775,
+      "lat": 50.54,
+      "lon": -127.495,
+      "reason": "Centroid of park; actual campground located further upriver per bcparks.ca"
+    },
+    {
+      "id": "c17faaa3-a6c5-453b-81ba-3d219f34036c",
+      "name": "MONKMAN PARK",
+      "provider": "bcparks",
+      "original_lat": 54.6151900810534,
+      "original_lon": -121.203532072645,
+      "lat": 54.79,
+      "lon": -121.1,
+      "reason": "Centroid of park; actual campground near Kinuseo Falls per bcparks.ca"
+    },
+    {
+      "id": "b383ce2f-00d6-46e8-8b62-0ed196349a4e",
+      "name": "NISGA''A MEMORIAL LAVA BED CORRIDOR PROTECTED AREA",
+      "provider": "bcparks",
+      "original_lat": 55.190211839,
+      "original_lon": -129.079067881,
+      "lat": 55.1,
+      "lon": -129.2,
+      "reason": "Centroid of protected area; actual campground at Vetter Falls per bcparks.ca"
+    },
+    {
+      "id": "8e1e184f-f576-4f70-81a7-de4bf78419e2",
+      "name": "NISGA''A MEMORIAL LAVA BED CORRIDOR PROTECTED AREA (No.2)",
+      "provider": "bcparks",
+      "original_lat": 55.186474853401,
+      "original_lon": -129.194671111294,
+      "lat": 55.1,
+      "lon": -129.2,
+      "reason": "Centroid of protected area; actual campground at Vetter Falls per bcparks.ca"
+    },
+    {
+      "id": "07c3288f-5409-4c62-bfea-f3ad343a53a3",
+      "name": "OKANAGAN MOUNTAIN PARK",
+      "provider": "bcparks",
+      "original_lat": 49.7276603854183,
+      "original_lon": -119.667280939152,
+      "lat": 49.7,
+      "lon": -119.65,
+      "reason": "Centroid of park; actual marine campsites (e.g., Commando Bay) per bcparks.ca"
+    },
+    {
+      "id": "0ad8b659-91c0-4b95-81c3-6f76b78d4a17",
+      "name": "STONE MOUNTAIN PARK",
+      "provider": "bcparks",
+      "original_lat": 58.5543600930851,
+      "original_lon": -124.769931276613,
+      "lat": 58.75,
+      "lon": -125.0833,
+      "reason": "Centroid of park; actual campground (Summit Lake Campground) is further north on Alaska Highway."
+    },
+    {
+      "id": "fd01b14f-c203-4903-8fa2-e9d1664c8a4b",
+      "name": "WHITE LAKE PARK",
+      "provider": "bcparks",
+      "original_lat": 50.8863678967344,
+      "original_lon": -119.240138781531,
+      "lat": 50.895,
+      "lon": -119.245,
+      "reason": "Centroid of lake; actual campground is on the north shore per bcparks.ca"
+    },
+    {
+      "id": "952f6299-28fc-49a7-8f77-beb5b3bf69ac",
+      "name": "WHITESWAN LAKE PARK",
+      "provider": "bcparks",
+      "original_lat": 50.1421667668599,
+      "original_lon": -115.514400520617,
+      "lat": 50.148,
+      "lon": -115.525,
+      "reason": "Centroid of lake; actual campgrounds are on the west shore per bcparks.ca"
+    },
+    {
+      "id": "4ca91db7-c9d3-44bf-a0ff-9ff2e1231581",
+      "name": "YAHK PARK",
+      "provider": "bcparks",
+      "original_lat": 49.0806771266667,
+      "original_lon": -116.095683145972,
+      "lat": 49.083,
+      "lon": -116.098,
+      "reason": "Centroid of park; actual campground is on the west side of the river per bcparks.ca"
+    },
+    {
+      "id": "83279ea6-7c3c-403f-869d-41b208fcb9d1",
+      "name": "Caribou Inn",
+      "provider": "parks_canada",
+      "original_lat": 53.4221488962869,
+      "original_lon": -118.90301402795,
+      "lat": 53.4221488962869,
+      "lon": -118.90301402795,
+      "reason": "Caribou Inn is a commercial lodge, not a campsite. Coordinates are correct for the lodge."
+    },
+    {
+      "id": "2ec414d4-455c-4f12-b547-bd5b930da610",
+      "name": "Float Camp Unit # 1 - Durina Lodge",
+      "provider": "parks_canada",
+      "original_lat": 52.5781806601317,
+      "original_lon": -131.568599341124,
+      "lat": 52.5781806601317,
+      "lon": -131.568599341124,
+      "reason": "Float Camp Unit #1 - Durina Lodge is a commercial lodge, not a campsite. Coordinates are correct for the lodge."
+    },
+    {
+      "id": "d192b21a-2cb3-4d6c-8b48-85aa96cb9d30",
+      "name": "Float Camp Unit # 4 - Main Lodge",
+      "provider": "parks_canada",
+      "original_lat": 52.5781327802998,
+      "original_lon": -131.568410020092,
+      "lat": 52.5781327802998,
+      "lon": -131.568410020092,
+      "reason": "Float Camp Unit #4 - Main Lodge is a commercial lodge, not a campsite. Coordinates are correct for the lodge."
+    },
+    {
+      "id": "c146de50-bcc9-4d4a-9091-b0ccb1459f28",
+      "name": "Prior Centennial Campground",
+      "provider": "parks_canada",
+      "original_lat": 48.78,
+      "original_lon": -123.28,
+      "lat": 48.783,
+      "lon": -123.285,
+      "reason": "Coordinates are a rounded centroid; actual campground entrance is slightly to the southwest on North Pender Island."
+    },
+    {
+      "id": "5250da8c-3ce1-4d8b-a654-22d3e1c21934",
+      "name": "Skyline - Maligne Canyon",
+      "provider": "parks_canada",
+      "original_lat": 52.9143109797601,
+      "original_lon": -118.001663557287,
+      "lat": 52.8486,
+      "lon": -117.8095,
+      "reason": "Original coordinates point to Maligne Canyon trailhead, not an actual campsite on the Skyline Trail. Corrected to Little Shovel Campground, a designated backcountry campsite on the Skyline Trail."
+    }
+  ],
+  "additions": [
+    {
+      "name": "Russet Lake",
+      "provider": "bcparks",
+      "lat": 50.05,
+      "lon": -122.85,
+      "type": "campsite",
+      "reason": "Backcountry campground in Garibaldi Provincial Park, accessed via Singing Pass trail.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Helm Creek",
+      "provider": "bcparks",
+      "lat": 49.99,
+      "lon": -123.05,
+      "type": "campsite",
+      "reason": "Backcountry campground in Garibaldi Provincial Park, accessed via Cheakamus Lake trail.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Elfin Lakes",
+      "provider": "bcparks",
+      "lat": 49.81,
+      "lon": -123.05,
+      "type": "campsite",
+      "reason": "Backcountry campground and shelter in Garibaldi Provincial Park, popular hiking destination.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Cayoosh Hut",
+      "provider": "bcmc",
+      "lat": 50.42,
+      "lon": -122.5,
+      "type": "hut",
+      "reason": "Backcountry ski hut in the Cayoosh Range near Pemberton, accessed from Duffey Lake Road.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Beekers Hut",
+      "provider": "voc",
+      "lat": 50.15,
+      "lon": -122.6,
+      "type": "hut",
+      "reason": "User-maintained memorial hut near Steep Creek, Lillooet Range.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Wendy Thompson Hut",
+      "provider": "acc",
+      "lat": 50.35,
+      "lon": -122.55,
+      "type": "hut",
+      "reason": "Alpine Club of Canada hut in Marriott Basin near Duffey Lake.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Sphinx Hut",
+      "provider": "pwa",
+      "lat": 49.95,
+      "lon": -122.95,
+      "type": "hut",
+      "reason": "Pemberton Wildlife Association hut in Garibaldi Provincial Park.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Burton Hut",
+      "provider": "pwa",
+      "lat": 49.95,
+      "lon": -122.9,
+      "type": "hut",
+      "reason": "Pemberton Wildlife Association hut in Garibaldi Provincial Park.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Harrison Hut",
+      "provider": "bcmc",
+      "lat": 50.48,
+      "lon": -122.9,
+      "type": "hut",
+      "reason": "BC Mountaineering Club hut in the Pemberton area.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Plumper Cove Marine",
+      "provider": "bc_coastal",
+      "lat": 49.4,
+      "lon": -123.5,
+      "type": "campsite",
+      "reason": "Water-access marine campground on Keats Island in the Gulf Islands.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Sidney Spit",
+      "provider": "parks_canada",
+      "lat": 48.67,
+      "lon": -123.35,
+      "type": "campsite",
+      "reason": "Marine campground in Gulf Islands National Park Reserve on Sidney Island.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Manzanita Hut",
+      "provider": "sct",
+      "lat": 49.95,
+      "lon": -124.3,
+      "type": "hut",
+      "reason": "One of the huts along the Sunshine Coast Trail.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Kees and Claire Hut",
+      "provider": "spearhead_huts",
+      "lat": 50.05,
+      "lon": -122.95,
+      "type": "hut",
+      "reason": "Modern backcountry hut in the Spearhead Range, Whistler Blackcomb area.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Conrad Kain Hut",
+      "provider": "acc",
+      "lat": 50.725,
+      "lon": -116.755,
+      "type": "hut",
+      "reason": "Alpine Club of Canada hut in Bugaboo Provincial Park, popular for mountaineering.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Mount Assiniboine Lodge",
+      "provider": "commercial",
+      "lat": 50.87,
+      "lon": -115.65,
+      "type": "lodge",
+      "reason": "Historic commercial lodge in Mount Assiniboine Provincial Park.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Floe Lake",
+      "provider": "parks_canada",
+      "lat": 50.75,
+      "lon": -116.05,
+      "type": "campsite",
+      "reason": "Backcountry campground on the Rockwall Trail in Kootenay National Park.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Himmelsbach Hut",
+      "provider": "voc",
+      "lat": 50.25,
+      "lon": -122.9,
+      "type": "hut",
+      "reason": "Vancouver Outdoor Club hut near Whistler.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Sproatt Hut",
+      "provider": "cvhs",
+      "lat": 50.15,
+      "lon": -123,
+      "type": "hut",
+      "reason": "Coast Valley Huts Society hut on Sproatt Mountain near Whistler.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Russet Lake Campground",
+      "provider": "bcparks",
+      "lat": 50.05,
+      "lon": -122.85,
+      "type": "campsite",
+      "reason": "Backcountry campground in Garibaldi Park, popular for hiking/skiing.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Helm Creek Campground",
+      "provider": "bcparks",
+      "lat": 49.98,
+      "lon": -123.08,
+      "type": "campsite",
+      "reason": "Backcountry campground in Garibaldi Park, accessed via Cheakamus Lake trail.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Singing Pass Campground",
+      "provider": "bcparks",
+      "lat": 50,
+      "lon": -122.9,
+      "type": "campsite",
+      "reason": "Backcountry campground in Garibaldi Park, accessed via Whistler.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Taylor Meadows Campground",
+      "provider": "bcparks",
+      "lat": 49.95,
+      "lon": -122.98,
+      "type": "campsite",
+      "reason": "Backcountry campground in Garibaldi Park, accessed via Rubble Creek.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Sphinx Hut",
+      "provider": "voc",
+      "lat": 49.98,
+      "lon": -122.9,
+      "type": "hut",
+      "reason": "Backcountry hut in Garibaldi Park, near Sphinx Glacier.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Burton Hut",
+      "provider": "bcmc",
+      "lat": 49.8,
+      "lon": -122.95,
+      "type": "hut",
+      "reason": "Backcountry hut in Garibaldi Park, near Garibaldi Lake.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Saddle Mountain Hut",
+      "provider": "voc",
+      "lat": 50.1,
+      "lon": -122.8,
+      "type": "hut",
+      "reason": "Backcountry hut near Pemberton.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Harrison Hut",
+      "provider": "voc",
+      "lat": 50.2,
+      "lon": -122.7,
+      "type": "hut",
+      "reason": "Backcountry hut near Pemberton.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Himmelsbach Hut",
+      "provider": "acc",
+      "lat": 50.3,
+      "lon": -122.65,
+      "type": "hut",
+      "reason": "ACC hut near Duffey Lake.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Kees and Claire Hut",
+      "provider": "spearhead_huts",
+      "lat": 50,
+      "lon": -122.9,
+      "type": "hut",
+      "reason": "Modern backcountry hut on the Spearhead Traverse.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Tetrahedron Hut",
+      "provider": "tetrahedron",
+      "lat": 49.6,
+      "lon": -123.7,
+      "type": "hut",
+      "reason": "Backcountry hut on the Sunshine Coast.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Plumper Cove Marine Park",
+      "provider": "bc_coastal",
+      "lat": 49.4,
+      "lon": -123.5,
+      "type": "campsite",
+      "reason": "Water-access marine campground on Keats Island.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Smuggler Cove Marine Park",
+      "provider": "bc_coastal",
+      "lat": 49.48,
+      "lon": -123.98,
+      "type": "campsite",
+      "reason": "Water-access marine campground on the Sunshine Coast.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Wallace Island Marine Park",
+      "provider": "bc_coastal",
+      "lat": 48.92,
+      "lon": -123.55,
+      "type": "campsite",
+      "reason": "Water-access marine campground in the Gulf Islands.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Berg Lake Campground",
+      "provider": "bcparks",
+      "lat": 53.1,
+      "lon": -119.15,
+      "type": "campsite",
+      "reason": "Iconic backcountry campground in Mount Robson Provincial Park.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Lake O'Hara Lodge",
+      "provider": "commercial",
+      "lat": 51.35,
+      "lon": -116,
+      "type": "lodge",
+      "reason": "Commercial lodge in Yoho National Park.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Bow Hut",
+      "provider": "acc",
+      "lat": 51.65,
+      "lon": -116.45,
+      "type": "hut",
+      "reason": "ACC hut on the Wapta Icefield.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Peter and Catharine Whyte Hut (Peyto Hut)",
+      "provider": "acc",
+      "lat": 51.75,
+      "lon": -116.55,
+      "type": "hut",
+      "reason": "ACC hut on the Wapta Icefield.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Cascade Pass Campground",
+      "provider": "other",
+      "lat": 48.5,
+      "lon": -121.05,
+      "type": "campsite",
+      "reason": "Backcountry campground in North Cascades National Park (WA).",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Sahale Glacier Camp",
+      "provider": "other",
+      "lat": 48.5,
+      "lon": -121.05,
+      "type": "campsite",
+      "reason": "Backcountry campground in North Cascades National Park (WA).",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Hoh River Campground",
+      "provider": "other",
+      "lat": 47.86,
+      "lon": -123.93,
+      "type": "campsite",
+      "reason": "Frontcountry campground in Olympic National Park (WA).",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Singing Pass",
+      "provider": "bcparks",
+      "lat": 50.08,
+      "lon": -122.88,
+      "type": "campsite",
+      "reason": "Backcountry campground in Garibaldi Provincial Park, accessible via Singing Pass trail.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Elfin Lakes",
+      "provider": "bcparks",
+      "lat": 49.8,
+      "lon": -123.05,
+      "type": "campsite",
+      "reason": "Backcountry campground in Garibaldi Provincial Park, popular hiking destination.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Elfin Lakes Shelter",
+      "provider": "bcparks",
+      "lat": 49.8,
+      "lon": -123.05,
+      "type": "hut",
+      "reason": "Backcountry shelter at Elfin Lakes in Garibaldi Provincial Park.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Sphinx Hut",
+      "provider": "voc",
+      "lat": 49.95,
+      "lon": -122.9,
+      "type": "hut",
+      "reason": "Vancouver Outdoor Club hut in Garibaldi Provincial Park, near Sphinx Glacier.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Burton Hut",
+      "provider": "acc",
+      "lat": 50.2,
+      "lon": -122.95,
+      "type": "hut",
+      "reason": "Alpine Club of Canada hut near Whistler, in the Spearhead Range.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Sproatt Alpine Hut",
+      "provider": "pwa",
+      "lat": 50.1,
+      "lon": -123,
+      "type": "hut",
+      "reason": "Private hut on Sproatt Mountain near Whistler, managed by Powder Mountain Catskiing.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Kees and Claire Hut",
+      "provider": "spearhead_huts",
+      "lat": 50.05,
+      "lon": -122.85,
+      "type": "hut",
+      "reason": "Modern backcountry hut in the Spearhead Range, part of the Spearhead Huts System.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Edwards Lake Hut",
+      "provider": "tetrahedron",
+      "lat": 49.65,
+      "lon": -123.5,
+      "type": "hut",
+      "reason": "Backcountry hut in the Tetrahedron Provincial Park, Sunshine Coast.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Manzanita Hut",
+      "provider": "sct",
+      "lat": 50,
+      "lon": -124.7,
+      "type": "hut",
+      "reason": "One of the huts along the Sunshine Coast Trail.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Smuggler Cove Marine Park",
+      "provider": "bc_coastal",
+      "lat": 49.45,
+      "lon": -123.95,
+      "type": "campsite",
+      "reason": "Water-access marine campground on the Sunshine Coast.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Wallace Island Marine Park",
+      "provider": "bc_coastal",
+      "lat": 48.9,
+      "lon": -123.55,
+      "type": "campsite",
+      "reason": "Water-access marine campground in the Gulf Islands.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Elfin Lakes Campground",
+      "provider": "bcparks",
+      "lat": 49.82,
+      "lon": -123.06,
+      "type": "campsite",
+      "reason": "Backcountry campground in Garibaldi Provincial Park, popular hiking destination",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Helm Creek Campground",
+      "provider": "bcparks",
+      "lat": 50,
+      "lon": -122.95,
+      "type": "campsite",
+      "reason": "Backcountry campground in Garibaldi Provincial Park, part of the Helm Creek trail",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Burton Hut",
+      "provider": "pwa",
+      "lat": 49.9,
+      "lon": -123,
+      "type": "hut",
+      "reason": "Backcountry hut near Squamish, maintained by PWA",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Saddle Mountain Hut",
+      "provider": "pwa",
+      "lat": 49.95,
+      "lon": -123.05,
+      "type": "hut",
+      "reason": "Backcountry hut near Squamish, maintained by PWA",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Harrison Hut",
+      "provider": "voc",
+      "lat": 50.2,
+      "lon": -122.9,
+      "type": "hut",
+      "reason": "Backcountry hut on the Pemberton Icefield, maintained by VOC",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Sphinx Hut",
+      "provider": "voc",
+      "lat": 49.9,
+      "lon": -123,
+      "type": "hut",
+      "reason": "Backcountry hut in Garibaldi Provincial Park, maintained by VOC",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Tenedo Marine Park",
+      "provider": "bc_coastal",
+      "lat": 50,
+      "lon": -124.8,
+      "type": "campsite",
+      "reason": "Water-access marine campground in Desolation Sound",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Kees and Claire Hut",
+      "provider": "spearhead_huts",
+      "lat": 50.05,
+      "lon": -122.9,
+      "type": "hut",
+      "reason": "Modern backcountry hut in the Spearhead Range, Whistler Blackcomb",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Edwards Lake Hut",
+      "provider": "tetrahedron",
+      "lat": 49.6,
+      "lon": -123.6,
+      "type": "hut",
+      "reason": "Backcountry hut in Tetrahedron Provincial Park, Sunshine Coast",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "West Coast Trail - Thrasher Cove",
+      "provider": "parks_canada",
+      "lat": 48.4,
+      "lon": -124.45,
+      "type": "campsite",
+      "reason": "Designated backcountry campsite on the West Coast Trail, Pacific Rim National Park Reserve",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Juan de Fuca Marine Trail - Sombrio Beach",
+      "provider": "bcparks",
+      "lat": 48.55,
+      "lon": -124.3,
+      "type": "campsite",
+      "reason": "Designated backcountry campsite on the Juan de Fuca Marine Trail",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Halkett Bay Marine Park",
+      "provider": "bc_coastal",
+      "lat": 49.45,
+      "lon": -123.35,
+      "type": "campsite",
+      "reason": "Water-access marine campground on Gambier Island",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Sproatt Alpine Hut",
+      "provider": "commercial",
+      "lat": 50.08,
+      "lon": -123,
+      "type": "hut",
+      "reason": "Commercial backcountry hut near Whistler, accessible via ski touring or hiking",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Helm Creek",
+      "provider": "bcparks",
+      "lat": 49.995,
+      "lon": -123.005,
+      "type": "campsite",
+      "reason": "Backcountry campground in Garibaldi Provincial Park, accessible via Cheakamus Lake trail",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Singing Pass",
+      "provider": "bcparks",
+      "lat": 50.06,
+      "lon": -122.88,
+      "type": "campsite",
+      "reason": "Backcountry campground in Garibaldi Provincial Park, accessible via Singing Pass trail",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Elfin Lakes Hut",
+      "provider": "bcparks",
+      "lat": 49.79,
+      "lon": -123.07,
+      "type": "hut",
+      "reason": "Backcountry hut in Garibaldi Provincial Park",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Saddle Mountain Hut",
+      "provider": "acc",
+      "lat": 50.5,
+      "lon": -122.65,
+      "type": "hut",
+      "reason": "ACC hut in Cayoosh Range, near Duffey Lake",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Harrison Hut",
+      "provider": "voc",
+      "lat": 50.28,
+      "lon": -123.05,
+      "type": "hut",
+      "reason": "Backcountry hut in Pemberton Icefield",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Sproatt Alpine Hut",
+      "provider": "sct",
+      "lat": 50.08,
+      "lon": -123,
+      "type": "hut",
+      "reason": "Hut on Sproatt Mountain, part of the Sea to Sky Trail",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Himmelsbach Hut",
+      "provider": "acc",
+      "lat": 50.25,
+      "lon": -122.8,
+      "type": "hut",
+      "reason": "ACC hut in Spearhead Range, near Whistler",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Smuggler Cove Marine",
+      "provider": "bc_coastal",
+      "lat": 49.46,
+      "lon": -123.99,
+      "type": "campsite",
+      "reason": "Water-access marine campground near Sechelt",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Edwards Lake Hut",
+      "provider": "tetrahedron",
+      "lat": 49.6,
+      "lon": -123.65,
+      "type": "hut",
+      "reason": "Backcountry hut on the Tetrahedron Plateau",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "McNair Lake Hut",
+      "provider": "tetrahedron",
+      "lat": 49.62,
+      "lon": -123.68,
+      "type": "hut",
+      "reason": "Backcountry hut on the Tetrahedron Plateau",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Bachelor Lake Hut",
+      "provider": "tetrahedron",
+      "lat": 49.64,
+      "lon": -123.7,
+      "type": "hut",
+      "reason": "Backcountry hut on the Tetrahedron Plateau",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Tetrahedron Lake Hut",
+      "provider": "tetrahedron",
+      "lat": 49.66,
+      "lon": -123.72,
+      "type": "hut",
+      "reason": "Backcountry hut on the Tetrahedron Plateau",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Helm Creek",
+      "provider": "bcparks",
+      "lat": 49.998,
+      "lon": -123.04,
+      "type": "campsite",
+      "reason": "Backcountry campground in Garibaldi Park.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Singing Pass",
+      "provider": "bcparks",
+      "lat": 50.04,
+      "lon": -122.9,
+      "type": "campsite",
+      "reason": "Backcountry campground in Garibaldi Park.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Elfin Lakes Campground",
+      "provider": "bcparks",
+      "lat": 49.76,
+      "lon": -123.09,
+      "type": "campsite",
+      "reason": "Backcountry campground in Garibaldi Park.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Elfin Lakes Shelter",
+      "provider": "bcparks",
+      "lat": 49.76,
+      "lon": -123.09,
+      "type": "hut",
+      "reason": "Backcountry hut in Garibaldi Park.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Sphinx Hut",
+      "provider": "acc",
+      "lat": 49.99,
+      "lon": -122.95,
+      "type": "hut",
+      "reason": "ACC hut in Garibaldi Park.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Harrison Hut",
+      "provider": "acc",
+      "lat": 50.48,
+      "lon": -123.2,
+      "type": "hut",
+      "reason": "ACC hut near Pemberton Icecap.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "McNair Lake Hut",
+      "provider": "tetrahedron",
+      "lat": 49.62,
+      "lon": -123.58,
+      "type": "hut",
+      "reason": "Backcountry hut in Tetrahedron Park.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Batchelor Lake Hut",
+      "provider": "tetrahedron",
+      "lat": 49.61,
+      "lon": -123.56,
+      "type": "hut",
+      "reason": "Backcountry hut in Tetrahedron Park.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Chapman Lake Hut",
+      "provider": "tetrahedron",
+      "lat": 49.59,
+      "lon": -123.55,
+      "type": "hut",
+      "reason": "Backcountry hut in Tetrahedron Park.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Halkett Bay Marine Park",
+      "provider": "bc_coastal",
+      "lat": 49.45,
+      "lon": -123.38,
+      "type": "campsite",
+      "reason": "Water-access marine campground on Gambier Island.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Hoh Rainforest Campground",
+      "provider": "other",
+      "lat": 47.86,
+      "lon": -124,
+      "type": "campsite",
+      "reason": "Campground in Olympic National Park, Washington.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Kalaloch Campground",
+      "provider": "other",
+      "lat": 47.6,
+      "lon": -124.37,
+      "type": "campsite",
+      "reason": "Campground in Olympic National Park, Washington.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Cougar Rock Campground",
+      "provider": "other",
+      "lat": 46.75,
+      "lon": -121.75,
+      "type": "campsite",
+      "reason": "Campground in Mount Rainier National Park, Washington.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Deception Pass State Park Campground",
+      "provider": "other",
+      "lat": 48.4,
+      "lon": -122.65,
+      "type": "campsite",
+      "reason": "Popular campground in Washington State Park.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Helm Creek",
+      "provider": "bcparks",
+      "lat": 50,
+      "lon": -122.95,
+      "type": "campsite",
+      "reason": "Backcountry campground Garibaldi Provincial Park, Cheakamus Lake trail",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Singing Pass",
+      "provider": "bcparks",
+      "lat": 50.05,
+      "lon": -122.88,
+      "type": "campsite",
+      "reason": "Backcountry campground Garibaldi Provincial Park, near Russet Lake",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Elfin Lakes Shelter",
+      "provider": "bcparks",
+      "lat": 49.8,
+      "lon": -123.1,
+      "type": "hut",
+      "reason": "Backcountry shelter Garibaldi Provincial Park, Diamond Head area",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Burton Hut",
+      "provider": "voc",
+      "lat": 50.1,
+      "lon": -122.9,
+      "type": "hut",
+      "reason": "Backcountry hut in Garibaldi Provincial Park, Spearhead Range",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Saddle Mountain Hut",
+      "provider": "voc",
+      "lat": 50.2,
+      "lon": -122.8,
+      "type": "hut",
+      "reason": "Backcountry hut in Lillooet Range",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Harrison Hut",
+      "provider": "voc",
+      "lat": 50.25,
+      "lon": -122.7,
+      "type": "hut",
+      "reason": "Backcountry hut in Lillooet Range",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Sproatt Hut",
+      "provider": "sct",
+      "lat": 50.1,
+      "lon": -123,
+      "type": "hut",
+      "reason": "Backcountry hut near Whistler, part of Sea to Sky Trail",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Himmelsbach Hut",
+      "provider": "voc",
+      "lat": 50,
+      "lon": -122.7,
+      "type": "hut",
+      "reason": "Backcountry hut in Lillooet Range",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Smuggler Cove Marine",
+      "provider": "bc_coastal",
+      "lat": 49.45,
+      "lon": -123.95,
+      "type": "campsite",
+      "reason": "Water-access marine campground on Sunshine Coast",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Tetrahedron Hut",
+      "provider": "tetrahedron",
+      "lat": 49.6,
+      "lon": -123.6,
+      "type": "hut",
+      "reason": "Backcountry hut in Tetrahedron Provincial Park",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Colonial Creek Campground",
+      "provider": "other",
+      "lat": 48.69,
+      "lon": -121.1,
+      "type": "campsite",
+      "reason": "Popular campground in North Cascades National Park, WA",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Hoh Rainforest Campground",
+      "provider": "other",
+      "lat": 47.86,
+      "lon": -123.93,
+      "type": "campsite",
+      "reason": "Iconic campground in Olympic National Park, WA",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Helm Creek",
+      "provider": "bcparks",
+      "lat": 49.998,
+      "lon": -123.005,
+      "type": "campsite",
+      "reason": "Backcountry campground Garibaldi, Cheakamus Lake trail",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Joffre Lakes Upper",
+      "provider": "bcparks",
+      "lat": 50.368,
+      "lon": -122.415,
+      "type": "campsite",
+      "reason": "Backcountry campground at Upper Joffre Lake",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Sidney Spit",
+      "provider": "parks_canada",
+      "lat": 48.67,
+      "lon": -123.32,
+      "type": "campsite",
+      "reason": "Marine and walk-in campground in Gulf Islands National Park Reserve",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Montague Harbour",
+      "provider": "bc_coastal",
+      "lat": 48.88,
+      "lon": -123.4,
+      "type": "campsite",
+      "reason": "Popular marine park campground on Galiano Island",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Plumper Cove",
+      "provider": "bc_coastal",
+      "lat": 49.4,
+      "lon": -123.5,
+      "type": "campsite",
+      "reason": "Water-access marine campground on Keats Island",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Colonial Creek Campground",
+      "provider": "other",
+      "lat": 48.69,
+      "lon": -121.07,
+      "type": "campsite",
+      "reason": "Front-country campground in North Cascades National Park, WA",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Hoh Rain Forest Campground",
+      "provider": "other",
+      "lat": 47.86,
+      "lon": -123.93,
+      "type": "campsite",
+      "reason": "Front-country campground in Olympic National Park, WA",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Mowich Lake Campground",
+      "provider": "other",
+      "lat": 47.03,
+      "lon": -121.85,
+      "type": "campsite",
+      "reason": "Primitive campground in Mount Rainier National Park, WA",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Helm Creek Campground",
+      "provider": "bcparks",
+      "lat": 49.99,
+      "lon": -123,
+      "type": "campsite",
+      "reason": "Backcountry campground in Garibaldi Provincial Park, accessible via Cheakamus Lake trail.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Elfin Lakes Hut",
+      "provider": "bcparks",
+      "lat": 49.8,
+      "lon": -123.05,
+      "type": "hut",
+      "reason": "Backcountry hut in Garibaldi Provincial Park, popular for hiking and skiing.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Burton Hut",
+      "provider": "voc",
+      "lat": 49.8,
+      "lon": -123.2,
+      "type": "hut",
+      "reason": "Backcountry hut in the Tantalus Range, accessible from Squamish.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Saddle Mountain Hut",
+      "provider": "voc",
+      "lat": 49.6,
+      "lon": -121.2,
+      "type": "hut",
+      "reason": "Backcountry hut in the Coquihalla area, near Needle Peak.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Harrison Hut",
+      "provider": "voc",
+      "lat": 50.45,
+      "lon": -123,
+      "type": "hut",
+      "reason": "Backcountry hut near Pemberton, in the Harrison Glacier area.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Sproatt Alpine Hut",
+      "provider": "pwa",
+      "lat": 50.08,
+      "lon": -123,
+      "type": "hut",
+      "reason": "Backcountry hut on Mount Sproatt near Whistler.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Himmelsbach Hut",
+      "provider": "acc",
+      "lat": 50.9,
+      "lon": -118.2,
+      "type": "hut",
+      "reason": "Alpine Club of Canada hut in the Monashee Mountains.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Plumper Cove Marine Provincial Park",
+      "provider": "bc_coastal",
+      "lat": 49.4,
+      "lon": -123.5,
+      "type": "campsite",
+      "reason": "Water-access marine campground on Keats Island in the Gulf Islands.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Cougar Rock Campground",
+      "provider": "other",
+      "lat": 46.75,
+      "lon": -121.76,
+      "type": "campsite",
+      "reason": "Front-country campground in Mount Rainier National Park, Washington.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Colonial Creek Campground",
+      "provider": "other",
+      "lat": 48.69,
+      "lon": -121.16,
+      "type": "campsite",
+      "reason": "Front-country campground in North Cascades National Park, Washington.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Montague Harbour Marine Provincial Park",
+      "provider": "bc_coastal",
+      "lat": 48.88,
+      "lon": -123.38,
+      "type": "campsite",
+      "reason": "Water-access marine campground on Galiano Island, Gulf Islands.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Sunshine Coast Trail - Manzanita Hut",
+      "provider": "sct",
+      "lat": 49.9,
+      "lon": -124,
+      "type": "hut",
+      "reason": "Backcountry hut along the Sunshine Coast Trail near Powell River.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Russet Lake",
+      "provider": "bcparks",
+      "lat": 50.051,
+      "lon": -122.852,
+      "type": "campsite",
+      "reason": "Backcountry campground in Garibaldi Provincial Park, accessed via Singing Pass trail.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Helm Creek",
+      "provider": "bcparks",
+      "lat": 49.95,
+      "lon": -123,
+      "type": "campsite",
+      "reason": "Backcountry campground in Garibaldi Provincial Park, accessed via Cheakamus Lake Road.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Singing Pass",
+      "provider": "bcparks",
+      "lat": 50,
+      "lon": -122.8,
+      "type": "campsite",
+      "reason": "Backcountry campground in Garibaldi Provincial Park, accessed via Whistler Village.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Elfin Lakes Hut",
+      "provider": "acc",
+      "lat": 49.75,
+      "lon": -123,
+      "type": "hut",
+      "reason": "ACC hut in Garibaldi Provincial Park, popular for hiking and skiing.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Burton Hut",
+      "provider": "bcmc",
+      "lat": 49.95,
+      "lon": -123,
+      "type": "hut",
+      "reason": "BCMC hut in Garibaldi Provincial Park, near Garibaldi Lake.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Sproatt Hut",
+      "provider": "acc",
+      "lat": 50.1,
+      "lon": -123,
+      "type": "hut",
+      "reason": "ACC hut on Sproatt Mountain near Whistler, popular for backcountry skiing.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Himmelsbach Hut",
+      "provider": "acc",
+      "lat": 50.3,
+      "lon": -122.7,
+      "type": "hut",
+      "reason": "ACC hut near Pemberton, in the Lillooet Range.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Harrison Hut",
+      "provider": "voc",
+      "lat": 50.1,
+      "lon": -122.6,
+      "type": "hut",
+      "reason": "VOC hut in the Lillooet Range, accessed from the Hurley River Road.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Manzanita Hut",
+      "provider": "sct",
+      "lat": 50.05,
+      "lon": -124.75,
+      "type": "hut",
+      "reason": "One of the huts along the Sunshine Coast Trail.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Cougar Rock Campground",
+      "provider": "other",
+      "lat": 46.77,
+      "lon": -121.75,
+      "type": "campsite",
+      "reason": "Major campground in Mount Rainier National Park, Washington.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Camp Muir",
+      "provider": "other",
+      "lat": 46.85,
+      "lon": -121.73,
+      "type": "hut",
+      "reason": "High-altitude climbing camp/shelter on Mount Rainier, Washington.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Assiniboine Lodge",
+      "provider": "commercial",
+      "lat": 50.85,
+      "lon": -115.65,
+      "type": "lodge",
+      "reason": "Historic backcountry lodge in Mount Assiniboine Provincial Park, BC.",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Helm Creek",
+      "provider": "bcparks",
+      "lat": 49.99,
+      "lon": -123,
+      "type": "campsite",
+      "reason": "Backcountry campground in Garibaldi Provincial Park",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Watersprite Lake Hut",
+      "provider": "bcmc",
+      "lat": 49.87,
+      "lon": -122.85,
+      "type": "hut",
+      "reason": "BCMC hut near Squamish",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Kees and Claire Hut",
+      "provider": "spearhead_huts",
+      "lat": 50.06,
+      "lon": -122.95,
+      "type": "hut",
+      "reason": "Modern backcountry hut on the Spearhead Traverse",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Ozette Loop (Cape Alava/Sand Point)",
+      "provider": "other",
+      "lat": 48.16,
+      "lon": -124.7,
+      "type": "campsite",
+      "reason": "Backcountry coastal campsites in Olympic National Park, Washington",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Deception Pass State Park",
+      "provider": "other",
+      "lat": 48.4,
+      "lon": -122.65,
+      "type": "campsite",
+      "reason": "Popular state park campground in Washington",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Tenquille Lake",
+      "provider": "rstbc",
+      "lat": 50.5,
+      "lon": -122.75,
+      "type": "campsite",
+      "reason": "Popular backcountry recreation site near Pemberton",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Sproatt Hut",
+      "provider": "pwa",
+      "lat": 50.1,
+      "lon": -123,
+      "type": "hut",
+      "reason": "Backcountry hut near Whistler",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Manzanita Hut",
+      "provider": "sct",
+      "lat": 49.9,
+      "lon": -124.4,
+      "type": "hut",
+      "reason": "Hut along the Sunshine Coast Trail",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Helm Creek",
+      "provider": "bcparks",
+      "lat": 49.995,
+      "lon": -122.99,
+      "type": "campsite",
+      "reason": "Backcountry campground in Garibaldi Provincial Park, accessible via Cheakamus Lake trail",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Sphinx Hut",
+      "provider": "voc",
+      "lat": 49.95,
+      "lon": -123,
+      "type": "hut",
+      "reason": "Vancouver Outdoor Club hut in Garibaldi Provincial Park",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Halkett Bay Marine",
+      "provider": "bc_coastal",
+      "lat": 49.45,
+      "lon": -123.35,
+      "type": "campsite",
+      "reason": "Water-access marine campground in Halkett Bay Marine Provincial Park, Gambier Island",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Manzanita Hut",
+      "provider": "sct",
+      "lat": 49.9,
+      "lon": -124,
+      "type": "hut",
+      "reason": "Backcountry hut on the Sunshine Coast Trail",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Gold Creek Campground",
+      "provider": "bcparks",
+      "lat": 49.3,
+      "lon": -122.47,
+      "type": "campsite",
+      "reason": "Frontcountry campground in Golden Ears Provincial Park",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Sombrio Beach",
+      "provider": "bcparks",
+      "lat": 48.56,
+      "lon": -124.3,
+      "type": "campsite",
+      "reason": "Backcountry campsite on the Juan de Fuca Marine Trail",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Enchanted Valley Chalet",
+      "provider": "other",
+      "lat": 47.7,
+      "lon": -123.35,
+      "type": "hut",
+      "reason": "Historic backcountry chalet in Olympic National Park, Washington",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Singing Pass",
+      "provider": "bcparks",
+      "lat": 50.06,
+      "lon": -122.9,
+      "type": "campsite",
+      "reason": "Backcountry campground in Garibaldi Provincial Park",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Sphinx Hut",
+      "provider": "voc",
+      "lat": 49.9,
+      "lon": -123.05,
+      "type": "hut",
+      "reason": "Backcountry hut in Garibaldi Provincial Park, near Mamquam Lake",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Burton Hut",
+      "provider": "voc",
+      "lat": 50.3,
+      "lon": -122.7,
+      "type": "hut",
+      "reason": "Backcountry hut in Pemberton area, near Pemberton Icefield",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Saddle Mountain Hut",
+      "provider": "voc",
+      "lat": 50.32,
+      "lon": -122.68,
+      "type": "hut",
+      "reason": "Backcountry hut in Pemberton area, near Saddle Mountain",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Harrison Hut",
+      "provider": "voc",
+      "lat": 49.6,
+      "lon": -121.7,
+      "type": "hut",
+      "reason": "Backcountry hut in Harrison Lake area, near Mount Breakenridge",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Elfin Lakes Shelter",
+      "provider": "bcparks",
+      "lat": 49.76,
+      "lon": -123.05,
+      "type": "hut",
+      "reason": "Backcountry shelter in Garibaldi Provincial Park",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Himmelsbach Hut",
+      "provider": "acc",
+      "lat": 50.75,
+      "lon": -116.75,
+      "type": "hut",
+      "reason": "ACC hut in Bugaboo Provincial Park",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Kees and Claire Hut",
+      "provider": "spearhead_huts",
+      "lat": 50,
+      "lon": -122.95,
+      "type": "hut",
+      "reason": "Spearhead Traverse hut in Garibaldi Provincial Park",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Edwards Lake Hut",
+      "provider": "tetrahedron",
+      "lat": 49.55,
+      "lon": -123.8,
+      "type": "hut",
+      "reason": "Backcountry hut in Tetrahedron Provincial Park",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Granite Falls",
+      "provider": "bcparks",
+      "lat": 49.45,
+      "lon": -122.85,
+      "type": "campsite",
+      "reason": "Marine campground in Indian Arm Provincial Park",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Cape Alava",
+      "provider": "other",
+      "lat": 48.16,
+      "lon": -124.73,
+      "type": "campsite",
+      "reason": "Backcountry campsite in Olympic National Park, Washington",
+      "capacity_total": null,
+      "metadata": {}
+    },
+    {
+      "name": "Sahale Glacier Camp",
+      "provider": "other",
+      "lat": 48.48,
+      "lon": -121.08,
+      "type": "campsite",
+      "reason": "Backcountry campsite in North Cascades National Park, Washington",
+      "capacity_total": null,
+      "metadata": {}
+    }
+  ],
+  "source_export": "locations-export.json",
+  "reviewed_at": "2026-02-17T07:17:03.427Z"
+}

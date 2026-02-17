@@ -6,6 +6,13 @@ export type Provider =
   | 'rstbc'
   | 'bcmc'
   | 'voc'
+  | 'wa_state_parks'
+  | 'bc_coastal'
+  |   'spearhead_huts'
+  | 'cvhs'
+  | 'pwa'
+  |   'tetrahedron'
+  | 'sct'
   | 'commercial'
   | 'other';
 
@@ -14,6 +21,7 @@ export type LocationType = 'hut' | 'campsite' | 'rec_site' | 'day_use_pass' | 'l
 export type AvailabilityStatus =
   | 'available'
   | 'booked'
+  | 'closed'
   | 'locked'
   | 'unknown'
   | 'opening_soon';
