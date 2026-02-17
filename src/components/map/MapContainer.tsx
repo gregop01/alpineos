@@ -157,7 +157,7 @@ export function MapContainer({ locations, onLocationClick, flyToCoords, selected
           />
         </>
       )}
-      <div className="absolute bottom-4 right-4 z-20 flex items-end gap-2">
+      <div className="absolute bottom-4 left-4 z-20 flex items-end gap-2">
         <button
           type="button"
           onClick={handleMapStyleToggle}
