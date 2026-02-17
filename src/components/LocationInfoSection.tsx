@@ -68,9 +68,11 @@ interface LocationInfoSectionProps {
   location: LocationInfoSectionLocation;
   /** Hide capacity (e.g. when card already shows it prominently) */
   hideCapacity?: boolean;
+  /** Hide operating season (e.g. when card header already shows it) */
+  hideOperatingSeason?: boolean;
 }
 
-export function LocationInfoSection({ location, hideCapacity }: LocationInfoSectionProps) {
+export function LocationInfoSection({ location, hideCapacity, hideOperatingSeason }: LocationInfoSectionProps) {
   const [bookingSummary, setBookingSummary] = useState<string | null>(null);
   const [needToKnow, setNeedToKnow] = useState<string | null>(null);
   const [summaryLoading, setSummaryLoading] = useState(false);
@@ -125,7 +127,7 @@ export function LocationInfoSection({ location, hideCapacity }: LocationInfoSect
     .filter(([k, v]) => !SKIP_METADATA_KEYS.has(k) && v != null && v !== '')
     .map(([k]) => k);
 
-  const operatingSeason = getOperatingSeason(metadata);
+  const operatingSeason = !hideOperatingSeason ? getOperatingSeason(metadata) : null;
   const hasCapacity = !hideCapacity && location.capacity_total != null && location.capacity_total > 0;
   const capacityLabel = location.type === 'hut' ? 'beds' : 'spots';
   const hasAnyInfo = hasCapacity || operatingSeason || displayEntries.length > 0 || bookingSummary || needToKnow || summaryLoading;

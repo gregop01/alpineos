@@ -36,6 +36,14 @@ interface SidePanelProps {
   getNextOpening: (locationId: string) => number | undefined;
 }
 
+function getOperatingSeason(metadata: Record<string, unknown> | undefined): string | null {
+  if (!metadata) return null;
+  if (metadata.year_round === true) return 'Year-round';
+  const season = metadata.season;
+  if (typeof season === 'string' && season.trim()) return season.trim();
+  return null;
+}
+
 const STATUS_COLORS: Record<AvailabilityStatus, string> = {
   available: 'bg-emerald-500',
   booked: 'bg-red-500',
@@ -67,6 +75,8 @@ export function SidePanel({
     return m;
   }, [availability]);
 
+  const hasAvailabilityData = availability.some((a) => a.status !== 'unknown');
+
   if (!location) return null;
 
   const nextOpening = getNextOpening(location.id);
@@ -93,6 +103,11 @@ export function SidePanel({
               <span className="text-[10px] text-zinc-500">· {location.capacity_total} spots</span>
             )}
           </div>
+          {getOperatingSeason(location.metadata) && (
+            <p className="text-[10px] text-zinc-500 mt-1">
+              Operating season: {getOperatingSeason(location.metadata)}
+            </p>
+          )}
         </div>
         <button
           onClick={onClose}
@@ -109,36 +124,38 @@ export function SidePanel({
         </div>
       )}
 
-      <div className="flex-1 overflow-auto px-3 py-2">
-        <h3 className="text-[11px] font-medium text-zinc-600 mb-1">Availability</h3>
-        <div className="grid grid-cols-7 gap-[2px]">
-          {['Su', 'M', 'Tu', 'W', 'Th', 'F', 'Sa'].map((d) => (
-            <div key={d} className="text-center text-[9px] text-zinc-500 font-medium pb-0.5">
-              {d}
-            </div>
-          ))}
-          {calendarDays.map((day) => {
-            const dateStr = format(day, 'yyyy-MM-dd');
-            const a = availMap.get(dateStr);
-            const status = a?.status ?? 'unknown';
-            const spots = a?.spotsRemaining;
-            const isFuture = isAfter(day, new Date()) || isSameDay(day, new Date());
-            const showCount = status === 'available' && spots != null && spots > 0;
-            return (
-              <div
-                key={dateStr}
-                className={`aspect-square min-w-0 flex flex-col items-center justify-center gap-0 rounded-sm text-[10px] ${
-                  isFuture ? STATUS_COLORS[status] : 'bg-zinc-100'
-                } ${!isFuture ? 'opacity-50' : ''} ${showCount ? 'text-white' : ''}`}
-                title={`${dateStr}: ${status}${showCount ? ` (${spots} spots)` : ''}`}
-              >
-                <span className="leading-none">{format(day, 'd')}</span>
-                {showCount && <span className="text-sm font-bold leading-none">{spots}</span>}
+      {hasAvailabilityData && (
+        <div className="flex-1 overflow-auto px-3 py-2">
+          <h3 className="text-[11px] font-medium text-zinc-600 mb-1">Availability</h3>
+          <div className="grid grid-cols-7 gap-[2px]">
+            {['Su', 'M', 'Tu', 'W', 'Th', 'F', 'Sa'].map((d) => (
+              <div key={d} className="text-center text-[9px] text-zinc-500 font-medium pb-0.5">
+                {d}
               </div>
-            );
-          })}
+            ))}
+            {calendarDays.map((day) => {
+              const dateStr = format(day, 'yyyy-MM-dd');
+              const a = availMap.get(dateStr);
+              const status = a?.status ?? 'unknown';
+              const spots = a?.spotsRemaining;
+              const isFuture = isAfter(day, new Date()) || isSameDay(day, new Date());
+              const showCount = status === 'available' && spots != null && spots > 0;
+              return (
+                <div
+                  key={dateStr}
+                  className={`aspect-square min-w-0 flex flex-col items-center justify-center gap-0 rounded-sm text-[10px] ${
+                    isFuture ? STATUS_COLORS[status] : 'bg-zinc-100'
+                  } ${!isFuture ? 'opacity-50' : ''} ${showCount ? 'text-white' : ''}`}
+                  title={`${dateStr}: ${status}${showCount ? ` (${spots} spots)` : ''}`}
+                >
+                  <span className="leading-none">{format(day, 'd')}</span>
+                  {showCount && <span className="text-sm font-bold leading-none">{spots}</span>}
+                </div>
+              );
+            })}
+          </div>
         </div>
-      </div>
+      )}
 
       {(() => {
         const url =

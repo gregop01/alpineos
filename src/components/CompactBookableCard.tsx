@@ -40,6 +40,14 @@ interface CompactBookableCardProps {
   onRejected?: (locationId: string) => void;
 }
 
+function getOperatingSeason(metadata: Record<string, unknown> | undefined): string | null {
+  if (!metadata) return null;
+  if (metadata.year_round === true) return 'Year-round';
+  const season = metadata.season;
+  if (typeof season === 'string' && season.trim()) return season.trim();
+  return null;
+}
+
 const STATUS_COLORS: Record<AvailabilityStatus, string> = {
   available: 'bg-emerald-500',
   booked: 'bg-red-500',
@@ -151,6 +159,8 @@ export function CompactBookableCard({
     return m;
   }, [availability]);
 
+  const hasAvailabilityData = availability.some((a) => a.status !== 'unknown');
+
   const nextOpening = getNextOpening(location.id);
   const providerLabel = PROVIDER_STYLES[location.provider]?.label ?? location.provider.replace(/_/g, ' ');
   const requiresPermit =
@@ -179,6 +189,11 @@ export function CompactBookableCard({
                   </span>
                 )}
               </p>
+              {getOperatingSeason(location.metadata) && (
+                <p className="text-[10px] text-zinc-500 mt-0.5">
+                  Operating season: {getOperatingSeason(location.metadata)}
+                </p>
+              )}
             </div>
             <div className="flex items-center gap-0.5 shrink-0">
               <LocationChatTrigger
@@ -249,6 +264,7 @@ export function CompactBookableCard({
           )}
 
           <LocationInfoSection
+            hideOperatingSeason
             location={{
               id: location.id,
               name: location.name,
@@ -262,78 +278,80 @@ export function CompactBookableCard({
             }}
           />
 
-          <div className="mt-2 w-full">
-            <button
-              type="button"
-              onClick={() => setCalendarExpanded((e) => !e)}
-              className="flex items-center justify-between gap-1 w-full py-0.5 -mx-0.5 rounded hover:bg-zinc-50"
-              aria-expanded={calendarExpanded}
-            >
-              <h4 className="text-[10px] font-medium text-zinc-600">Availability</h4>
-              {calendarExpanded ? (
-                <ChevronUp size={12} className="text-zinc-500 shrink-0" />
-              ) : (
-                <ChevronDown size={12} className="text-zinc-500 shrink-0" />
-              )}
-            </button>
-            {calendarExpanded && (
-              <>
-                <div className="flex items-center justify-between gap-1 mt-1 mb-0.5">
-                  <div className="flex items-center gap-0.5 flex-1 justify-center">
-                    <button
-                      type="button"
-                      onClick={(e) => { e.stopPropagation(); goPrevWeek(); }}
-                      className="p-0.5 rounded hover:bg-zinc-100 text-zinc-600"
-                      aria-label="Previous week"
-                    >
-                      <ChevronLeft size={12} />
-                    </button>
-                    <span className="text-[10px] font-medium text-zinc-700 min-w-[90px] text-center">
-                      {displayMonth}
-                    </span>
-                    <button
-                      type="button"
-                      onClick={(e) => { e.stopPropagation(); goNextWeek(); }}
-                      className="p-0.5 rounded hover:bg-zinc-100 text-zinc-600"
-                      aria-label="Next week"
-                    >
-                      <ChevronRight size={12} />
-                    </button>
-                  </div>
-                </div>
-                <div className="grid grid-cols-7 gap-[1px] text-[8px]">
-                  {['M', 'Tu', 'W', 'Th', 'F', 'Sa', 'Su'].map((d) => (
-                    <div
-                      key={d}
-                      className="text-center text-[8px] text-zinc-500 font-medium pb-0.5"
-                    >
-                      {d}
-                    </div>
-                  ))}
-                  {calendarDays.map((day) => {
-                    const dateStr = format(day, 'yyyy-MM-dd');
-                    const a = availMap.get(dateStr);
-                    const status = a?.status ?? 'unknown';
-                    const spots = a?.spotsRemaining;
-                    const isFuture = isAfter(day, new Date()) || isSameDay(day, new Date());
-                    const showCount = status === 'available' && spots != null && spots > 0;
-                    return (
-                      <div
-                        key={dateStr}
-                        className={`min-w-0 min-h-0 aspect-square flex flex-col items-center justify-center gap-0 rounded-[2px] text-[8px] ${
-                          isFuture ? STATUS_COLORS[status] : 'bg-zinc-100'
-                        } ${!isFuture ? 'opacity-50' : ''} ${showCount ? 'text-white' : ''}`}
-                        title={`${dateStr}: ${status}${showCount ? ` (${spots} spots)` : ''}`}
+          {hasAvailabilityData && (
+            <div className="mt-2 w-full">
+              <button
+                type="button"
+                onClick={() => setCalendarExpanded((e) => !e)}
+                className="flex items-center justify-between gap-1 w-full py-0.5 -mx-0.5 rounded hover:bg-zinc-50"
+                aria-expanded={calendarExpanded}
+              >
+                <h4 className="text-[10px] font-medium text-zinc-600">Availability</h4>
+                {calendarExpanded ? (
+                  <ChevronUp size={12} className="text-zinc-500 shrink-0" />
+                ) : (
+                  <ChevronDown size={12} className="text-zinc-500 shrink-0" />
+                )}
+              </button>
+              {calendarExpanded && (
+                <>
+                  <div className="flex items-center justify-between gap-1 mt-1 mb-0.5">
+                    <div className="flex items-center gap-0.5 flex-1 justify-center">
+                      <button
+                        type="button"
+                        onClick={(e) => { e.stopPropagation(); goPrevWeek(); }}
+                        className="p-0.5 rounded hover:bg-zinc-100 text-zinc-600"
+                        aria-label="Previous week"
                       >
-                        <span className="leading-none">{format(day, 'd')}</span>
-                        {showCount && <span className="text-sm font-bold leading-none">{spots}</span>}
+                        <ChevronLeft size={12} />
+                      </button>
+                      <span className="text-[10px] font-medium text-zinc-700 min-w-[90px] text-center">
+                        {displayMonth}
+                      </span>
+                      <button
+                        type="button"
+                        onClick={(e) => { e.stopPropagation(); goNextWeek(); }}
+                        className="p-0.5 rounded hover:bg-zinc-100 text-zinc-600"
+                        aria-label="Next week"
+                      >
+                        <ChevronRight size={12} />
+                      </button>
+                    </div>
+                  </div>
+                  <div className="grid grid-cols-7 gap-[1px] text-[8px]">
+                    {['M', 'Tu', 'W', 'Th', 'F', 'Sa', 'Su'].map((d) => (
+                      <div
+                        key={d}
+                        className="text-center text-[8px] text-zinc-500 font-medium pb-0.5"
+                      >
+                        {d}
                       </div>
-                    );
-                  })}
-                </div>
-              </>
-            )}
-          </div>
+                    ))}
+                    {calendarDays.map((day) => {
+                      const dateStr = format(day, 'yyyy-MM-dd');
+                      const a = availMap.get(dateStr);
+                      const status = a?.status ?? 'unknown';
+                      const spots = a?.spotsRemaining;
+                      const isFuture = isAfter(day, new Date()) || isSameDay(day, new Date());
+                      const showCount = status === 'available' && spots != null && spots > 0;
+                      return (
+                        <div
+                          key={dateStr}
+                          className={`min-w-0 min-h-0 aspect-square flex flex-col items-center justify-center gap-0 rounded-[2px] text-[8px] ${
+                            isFuture ? STATUS_COLORS[status] : 'bg-zinc-100'
+                          } ${!isFuture ? 'opacity-50' : ''} ${showCount ? 'text-white' : ''}`}
+                          title={`${dateStr}: ${status}${showCount ? ` (${spots} spots)` : ''}`}
+                        >
+                          <span className="leading-none">{format(day, 'd')}</span>
+                          {showCount && <span className="text-sm font-bold leading-none">{spots}</span>}
+                        </div>
+                      );
+                    })}
+                  </div>
+                </>
+              )}
+            </div>
+          )}
 
           {url && (
             <a
