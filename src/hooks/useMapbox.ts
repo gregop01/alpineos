@@ -111,13 +111,15 @@ export function useMapbox(containerRef: React.RefObject<HTMLDivElement | null>) 
     });
 
     map.on('style.load', () => {
-      map.addSource('mapbox-dem', {
-        type: 'raster-dem',
-        url: 'mapbox://mapbox.mapbox-terrain-dem-v1',
-        tileSize: 512,
-        maxzoom: 14,
-      });
-      map.setTerrain({ source: 'mapbox-dem', exaggeration: 1.2 });
+      // Terrain disabled: it causes circle layers (location pins) to render behind
+      // terrain-draped layers, making pins invisible
+      // map.addSource('mapbox-dem', {
+      //   type: 'raster-dem',
+      //   url: 'mapbox://mapbox.mapbox-terrain-dem-v1',
+      //   tileSize: 512,
+      //   maxzoom: 14,
+      // });
+      // map.setTerrain({ source: 'mapbox-dem', exaggeration: 1.2 });
 
       map.addSource('osm-trails', {
         type: 'geojson',

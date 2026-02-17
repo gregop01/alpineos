@@ -262,20 +262,34 @@ export function LocationPins({
       } else {
         (map.getSource('locations-pins') as mapboxgl.GeoJSONSource).setData(geojson);
       }
+      // Force re-render; pins often don't appear until resize (Mapbox timing)
+      requestAnimationFrame(() => map.resize());
     };
 
-    if (map.isStyleLoaded()) {
-      ensureLayer();
-    } else {
-      map.once('style.load', ensureLayer);
-    }
-    map.on('style.load', ensureLayer);
+    const runWhenReady = () => {
+      if (map.isStyleLoaded()) {
+        ensureLayer();
+      } else {
+        map.once('style.load', ensureLayer);
+      }
+    };
 
-    const rafId = requestAnimationFrame(() => map.resize());
+    const idleHandler = () => {
+      map.off('idle', idleHandler);
+      runWhenReady();
+    };
+
+    // Wait for map to be idle before adding pins - fixes pins not showing on initial load
+    if (map.loaded()) {
+      runWhenReady();
+    } else {
+      map.on('idle', idleHandler);
+    }
+    map.on('style.load', runWhenReady);
 
     return () => {
-      cancelAnimationFrame(rafId);
-      map.off('style.load', ensureLayer);
+      map.off('idle', idleHandler);
+      map.off('style.load', runWhenReady);
       map.off('click', 'locations-pins-layer', onMapClick);
       map.off('mousemove', 'locations-pins-layer', onMouseMove);
       map.off('mouseleave', 'locations-pins-layer', onMouseLeave);
